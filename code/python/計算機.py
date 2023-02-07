@@ -11,11 +11,11 @@ while True:
     if a == '/':
         if c == 0:
             print('0では割れません')
-            d = input('終了する際はここにquitと入れてください')
-            if d == 'quit':
+            d = input('終了する際はここに終了と入れてください')
+            if d == '終了':
                 break
             continue
         print('答えは'+str(b/c)+'です')
-    d = input('終了する際はここにquitと入れてください')
-    if d == 'quit':
+    d = input('終了する際はここに終了と入れてください')
+    if d == '終了':
         break
