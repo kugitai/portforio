@@ -1,3 +1,6 @@
+a = input()
+b = int(input())
+c = int(input())
 while True:
     b = int(input('一つ目の数字は？'))
     a = input('+,-,*,/を選択してください')
